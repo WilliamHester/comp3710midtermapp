@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MidTermPart1</string>
+    <string name="reverse_me">Reverse Me!</string>
+    <string name="action_settings">Settings</string>
+    <string name="history_by_reversed">History - by reversed word</string>
+    <string name="history_by_original">History - by original word</string>
+    <string name="phrase_already_exists">That word or phrase already exists.</string>
+
+</resources>

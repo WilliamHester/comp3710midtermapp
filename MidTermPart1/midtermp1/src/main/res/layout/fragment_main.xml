@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/entered_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/reverse_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reverse_me"/>
+
+    <TextView android:id="@+id/reversed_word"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Button android:id="@+id/history_original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/history_by_original"/>
+
+    <Button android:id="@+id/history_reversed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/history_by_reversed"/>
+
+</LinearLayout>
